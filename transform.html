@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transform</title>
     <style>
-        body{
+        body {
             margin-left: 50px;
         }
-        .container, .inner{
+
+        .container,
+        .inner {
             width: 200px;
             height: 200px;
         }
-        .container{
+
+        .container {
             border: 2px solid steelblue;
             background: aquamarine;
         }
-        .inner{
+
+        .inner {
             border: 2px solid brown;
             background: palegoldenrod;
             /* transform: scale(0.5, 0.75); */
@@ -24,11 +29,13 @@
             /* transform: scale(0.5) translateX(100px) translateY(-150px) rotate(45deg); */
             /* transform: scale(0.5) rotate(45deg) translateX(100px); */
         }
-        .inner:hover{
+
+        .inner:hover {
             transform: scale(0.5) rotate(45deg);
         }
     </style>
 </head>
+
 <body>
     <h2>Explore Transform and Translate</h2>
     <!-- .container*3{Container $}>.inner{Inner $}  -->
@@ -42,4 +49,5 @@
         <div class="inner">Inner 3</div>
     </div>
 </body>
+
 </html>
